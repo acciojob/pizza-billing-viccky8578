@@ -3,9 +3,9 @@ package com.driver;
 public class Pizza {
 
     private int price;
-    private Boolean isVeg;
+     Boolean isVeg;
     private String bill;
-    private int toppings;
+     int toppings;
      boolean isAddExtraCheese;
 
      boolean isAddTakeaway;
@@ -20,7 +20,8 @@ public class Pizza {
             this.price=300;
             this.toppings=70;
         }
-        else {
+        else
+        {
             this.price=400;
             this.toppings=120;
         }
@@ -42,7 +43,7 @@ public class Pizza {
             this.price+=80;
            this.isAddExtraCheese=true;
         }
-        // your code goes here
+
     }
 
     public void addExtraToppings(){
